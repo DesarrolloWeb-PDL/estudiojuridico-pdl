@@ -1,0 +1,56 @@
+{
+  "studio": "Estudio Jurídico Ferreyra & Asociados",
+  "updated_at": "2026-11-17",
+  "cases": [
+    {
+      "numero": "C-12.456/2024",
+      "caratula": "Pérez, Ramón c/ Cooperativa del Sur SRL s/ daños y perjuicios",
+      "juzgado": "Juzgado de Primera Instancia en lo Civil y Comercial N° 1",
+      "fuero": "Civil y Comercial",
+      "etapa": "Audiencia",
+      "estado": "Se fija audiencia de conciliación para el 15/12/2026.",
+      "public": true,
+      "updated_at": "2026-11-12"
+    },
+    {
+      "numero": "P-3.789/2025",
+      "caratula": "Ministerio Público Fiscal c/ Gómez, Luis s/ hurto agravado",
+      "juzgado": "Juzgado de Primera Instancia en lo Penal N° 2",
+      "fuero": "Penal",
+      "etapa": "Vista de causa",
+      "estado": "Alegatos pendientes de asignación de fecha.",
+      "public": true,
+      "updated_at": "2026-11-05"
+    },
+    {
+      "numero": "A-890/2025",
+      "caratula": "Importadora Fronteira SA c/ Estado Nacional s/ repetición de sumas pagadas en exceso",
+      "juzgado": "Juzgado Federal de Paz Letrado",
+      "fuero": "Aduanero",
+      "etapa": "Trámite",
+      "estado": "Corridas las vistas a las partes. Sin novedades.",
+      "public": true,
+      "updated_at": "2026-11-14"
+    },
+    {
+      "numero": "S-2.345/2023",
+      "caratula": "Sucesión de Fernández, Ana María",
+      "juzgado": "Juzgado de Primera Instancia en lo Civil y Comercial N° 2",
+      "fuero": "Sucesiones",
+      "etapa": "Escrutinio",
+      "estado": "Aprobada la cuenta final. Firmado el mandamiento.",
+      "public": true,
+      "updated_at": "2026-10-28"
+    },
+    {
+      "numero": "L-5.678/2025",
+      "caratula": "Rodríguez, Carla c/ Supermercado El Puerto SRL s/ despido",
+      "juzgado": "Juzgado de Primera Instancia en lo Laboral N° 1",
+      "fuero": "Laboral",
+      "etapa": "Conciliación",
+      "estado": "Sin novedades, aguarda fecha de audiencia.",
+      "public": true,
+      "updated_at": "2026-11-08"
+    }
+  ]
+}
