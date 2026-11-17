@@ -190,7 +190,27 @@ p { margin: 0 0 1em; }
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse at 30% 40%, #000 30%, transparent 75%);
 }
-.hero__inner { position: relative; max-width: 860px; }
+.hero__inner { position: relative; max-width: 860px; z-index: 1; }
+
+/* Marca de agua: estatua de la justicia (costado izquierdo) */
+.hero__statue {
+  position: absolute;
+  left: -2%;
+  bottom: -8%;
+  height: 115%;
+  width: auto;
+  max-width: 44%;
+  object-fit: contain;
+  object-position: bottom left;
+  opacity: .1;
+  filter: grayscale(1) contrast(1.05);
+  mix-blend-mode: luminosity;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(to right, #000 55%, transparent 100%);
+  mask-image: linear-gradient(to right, #000 55%, transparent 100%);
+}
 
 .eyebrow {
   font-size: .78rem;
@@ -770,6 +790,7 @@ p { margin: 0 0 1em; }
   .wa-fab { bottom: 74px; }
   .wa-panel { bottom: 146px; }
   .wa-toast { bottom: 130px; }
+  .hero__statue { opacity: .06; max-width: 70%; left: -12%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
