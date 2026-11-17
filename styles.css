@@ -790,7 +790,18 @@ p { margin: 0 0 1em; }
   .wa-fab { bottom: 74px; }
   .wa-panel { bottom: 146px; }
   .wa-toast { bottom: 130px; }
-  .hero__statue { opacity: .06; max-width: 70%; left: -12%; }
+  .hero__statue {
+    top: -3%;
+    bottom: auto;
+    left: auto;
+    right: -6%;
+    height: 52%;
+    max-width: none;
+    object-position: top right;
+    opacity: .09;
+    -webkit-mask-image: radial-gradient(ellipse 85% 88% at 92% 6%, #000 42%, transparent 78%);
+    mask-image: radial-gradient(ellipse 85% 88% at 92% 6%, #000 42%, transparent 78%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
