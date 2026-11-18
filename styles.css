@@ -528,6 +528,20 @@ p { margin: 0 0 1em; }
 .footer__legal { border-left: 1px solid rgba(255, 255, 255, .12); padding-left: 2rem; }
 .footer__disclaimer { font-size: .8rem; color: #6f7f95; }
 .footer__copy { font-size: .8rem; color: #55627a; margin: 0; }
+.footer a.footer__dev {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .75rem;
+  font-size: .8rem;
+  color: #6f7f95;
+  transition: color .2s ease;
+}
+.footer__dev:hover { color: #fff; }
+.footer__dev-logo { display: inline-flex; width: 14px; height: 14px; }
+.footer__dev-logo svg { width: 100%; height: 100%; display: block; }
+.footer__dev:hover .footer__dev-logo { transform: scale(1.1); }
+.footer__dev-logo { transition: transform .2s ease; }
 
 /* ---------- Barra móvil ---------- */
 .mobile-bar {
